@@ -1,0 +1,8 @@
+def removeall(l,x):
+    count = 0
+    for e in l[:]:
+        if e == x:
+            l.remove(x)
+            count = count + 1
+    if count == 0:
+            print('the input is not find in the list')
